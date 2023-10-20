@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  --cor-primaria: #ff6311;
+  --cor-secundaria: #2c2b2b;
+  --espacamento: 0px 25px;
+  font-size: 25px;
+}
+
+header {
+  background-color: var(--cor-secundaria);
+  /*altura*/
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--espacamento);
+}
+
+.header-menu ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+}
+.header-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+.header-menu ul li a:hover {
+  background-color: var(--cor-primaria);
+}
+main {
+  background-image: url("../img/banner.png");
+  height: 790px;
+  background-position: center;
+  padding: var(--espacamento);
+  color: white;
+  width: 100%;
+}
+.container-main {
+  width: 50%;
+  padding: 300px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-title {
+  font-size: 45px;
+  color: white;
+  margin: 10px;
+  /*padding: 10px;*/
+}
+.main-description {
+  color: white;
+  padding: 12px;
+  align-items: center;
+}
+.main-button {
+  width: 200px;
+  height: 30px;
+  background-color: var(--cor-primaria);
+  border: none;
+}
+.main-button a {
+  color: white;
+  text-decoration: none;
+}
+.main-button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+section {
+  padding: var(--espacamento);
+}
+#section-dance {
+  background-color: var(--cor-primaria);
+  padding: 15px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0px 300px;
+}
+.container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: white;
+}
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cor-secundaria);
+}
+.card figure img {
+  width: 100%;
+}
+.card p {
+  text-align: center;
+  padding: 10px;
+} /*
+.card h3 {
+  background-color: var(--cor-secundaria);
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}*/
+#section-pricing {
+  background-color: var(--cor-secundaria);
+  padding: 15px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-price {
+  background-color: var(--cor-primaria);
+  border-radius: 15px;
+  padding: 10px;
+}
+.container-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} /*
+
+.card {
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ff6311;
+}*/
+.main-button {
+  border: none;
+  background-color: var(--cor-secundaria);
+  height: 40px;
+  width: 220px;
+  border-radius: 3px;
+}
+.main-button a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#section-amazing {
+  background-color: var(--cor-primaria);
+  display: flex;
+  width: 100%;
+  padding: 0px;
+}
+#section-amazing.row {
+  display: flex;
+  width: 100%;
+}
+
+.kard-img {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 40px;
+  gap: 45px;
+}
+.fig-amazing img {
+  width: 100%;
+  height: 100%;
+}
+.section-statistc {
+  padding: 125px 25px;
+  background-color: var(--cor-secundaria);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 125px;
+  color: white;
+}
+.section-statistc .row1 {
+  padding: 0px 400px;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  color: rgb(175, 175, 175);
+}
+.section-statistc .row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.statitc-sub-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-herbet{
+  background-image: url("../img/sec-4.png");
+  height: 974px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.section-herbet h2{
+  color: white;
+}
