@@ -1,4 +1,3 @@
-/* oi */;
 * {
   padding: 0;
   margin: 0;
@@ -8,16 +7,13 @@
   --cor-vermelho: RGB(223, 28, 28);
 }
 .cabecalho {
-  /* border: solid red; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   background-color: var(--cor-amarela);
 }
-/* .menu {
-  border: solid red;
-} */
+
 .menu ul {
   display: flex;
   /* A funcao do "list-style" */
@@ -30,24 +26,20 @@
   color: var(--cor-marrom);
 }
 .container {
-  /* border: solid green; */
-
   background-color: var(--cor-amarela);
   color: var(--cor-marrom);
 
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* gap: 30px; */
 }
 .container-01 {
   width: 40%;
-  /* border: solid black; */
+
   flex-direction: column;
   display: flex;
   /* Centraliza no meio da tela */
   justify-content: center;
-  /* padding-left: 50px; */
 }
 .container-01 h1 {
   font-size: 70px;
@@ -56,21 +48,16 @@
   font-size: 28px;
 }
 .container-02 {
-  /* background-color: red   ; */
   width: 40%;
   position: relative;
 }
-/* .img {
-  border: 10px solid black;
-} */
+
 .img-preco {
-  /* border: solid red; */
   position: absolute;
   left: 0;
   bottom: 0;
 }
 section {
-  /* border: solid mediumblue; */
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -86,8 +73,6 @@ section p {
 }
 
 .t01 {
-  /* width: 150px; */
-  /* border: solid red; */
   padding: 30px;
   font-size: 20px;
   padding: 15px;
@@ -100,8 +85,6 @@ section p {
   justify-content: center;
   flex-direction: row;
   gap: 20px;
-  /* flex-direction: row; */
-  /* gap: 20px; */
 }
 .card {
   /* border: solid red; */
@@ -121,13 +104,7 @@ section p {
   display: flex;
   align-items: flex-end;
 }
-/* .card img{
-  width: 100%;
-}
-.container-img{
-  display: flex;
-  align-items: flex-end;
-} */
+
 .container-texto {
   display: flex;
   flex-direction: column;
@@ -149,51 +126,45 @@ section p {
   padding: 10px;
 }
 form {
-  /* border: solid red; */
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   align-items: center;
+
   width: 100%;
   padding: 50px;
   height: 500px;
-  /* background-color: var(--cor-marrom); */
 }
 .container-form {
-  /* border: solid red; */
-  /* background-color: var(--cor-marrom); */
   display: flex;
   flex-direction: column;
+
   gap: 15px;
   padding: 20px;
-  /* .container-form  {
-    /* border: solid black;
-    background-color: brown; */
 
   input::placeholder {
     color: var(--cor-marrom);
   }
+
   input {
+    border: 1px solid var(--cor-amarela);
     background-color: var(--cor-amarela);
+
     width: 100%;
     padding: 15px;
     border-radius: 5px;
     padding: 10px;
-    border: 1px solid var(--cor-amarela);
   }
 }
 input[type="text"] {
   border: none;
   background-color: var(--cor-amarela);
-  /* color: black; */
-  /* border: solid black; */
+
   padding: 15px;
   height: 50px;
   width: 250px;
   border-radius: 5px;
 }
 input[type="submit"] {
-  /* color: black; */
   background-color: var(--cor-vermelho);
   color: white;
   border-radius: 5px;
@@ -207,47 +178,59 @@ input[type="submit"] {
 }
 footer {
   background-image: url(img/rodape/fundo.png);
-  /* border: solid green; */
   display: flex;
-  /* align-items: center; */
+  align-items: center;
+
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 300px;
+  height: 400px;
   padding: 50px;
+
+  color: wheat;
 }
 .footer-01 img {
   width: 50%;
 }
 .footer-01 {
-  border: solid purple;
+  /* border: 3px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
   padding-right: 50px;
- 
-  /* width: 50%; */
+  width: 50%;
+  gap: 40px;
 }
-.footer-02{
-  /* border: solid yellow; */
+.footer-01 p {
+  text-align: justify;
+}
+.footer-02 {
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 130px;
-  padding-left: 90px;
-}
-.container-ct0{
-  /* border: solid green; */
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  /* gap: 5000px; */
-}
 
-.container-ct{
-  /* border: solid blue; */
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 210px;
+}
+.container-footer {
   display: flex;
   flex-direction: column;
   justify-content: right;
-  color: white;
+}
+.container-footer0 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.container-redes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.container-redes p {
+  text-align: justify;
 }
