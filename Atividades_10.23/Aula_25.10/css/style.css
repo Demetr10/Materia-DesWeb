@@ -1,0 +1,32 @@
+* {
+  font-size: 16px;
+}
+
+header {
+  height: 10;
+}
+
+.carousel-inner {
+  height: 90vh;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+@media screen and (max-width: 720px) {
+  * {
+    font-size: 14px;
+  }
+  header {
+    height: 100%;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+}
